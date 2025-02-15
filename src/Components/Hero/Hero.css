@@ -47,6 +47,10 @@
     border: 2px solid #FFF;
     cursor: pointer;
 }
+.resume{
+    color: #FFF;
+    text-decoration: none;
+}
 .hero-connect:hover{
     border: 2px solid white;
 }

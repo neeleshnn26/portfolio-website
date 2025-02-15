@@ -10,7 +10,10 @@ const Hero = () => {
       <p> I have built projects that showcase my ability to develop dynamic and responsive web applications. While I don’t have formal work experience, I am eager to apply my skills in a real-world setting through an internship or job opportunity</p>
       <div className="hero-action">
         <div className="hero-connect"><a className='anchor-link' href='https://www.linkedin.com/in/neelesh-nainwal-784535201' target='_blank' rel='noopener noreferrer'>Connect with me</a></div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a className="resume" href="/resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</a>
+        </div>
+     
       </div>
     </div>
   )
