@@ -55,8 +55,8 @@ const mywork_data = [
         w_img: project2_img,
         description: "A personal portfolio website showcasing my work and skills.",
         skills: ["HTML", "CSS", "JavaScript", "React"],
-        github: "https://github.com/your-github/portfolio",
-        live: "https://portfolio-demo.com"
+        github: "https://github.com/neeleshnn26/portfolio-website",
+        live: "https://portfolio-website-pi-navy-53.vercel.app/"
     },
     {
         w_no: 3,
@@ -64,8 +64,8 @@ const mywork_data = [
         w_img: project3_img,
         description: "A personal portfolio website showcasing my work and skills.",
         skills: ["HTML", "CSS", "JavaScript", "React"],
-        github: "https://github.com/your-github/portfolio",
-        live: "https://portfolio-demo.com"
+        github: "https://github.com/neeleshnn26/edusity",
+        live: "https://edusity-one-tau.vercel.app/"
     },
     {
         w_no: 4,
@@ -73,17 +73,17 @@ const mywork_data = [
         w_img: project4_img,
         description: "A personal portfolio website showcasing my work and skills.",
         skills: ["HTML", "CSS", "JavaScript", "React"],
-        github: "https://github.com/your-github/portfolio",
-        live: "https://portfolio-demo.com"
+        github: "https://github.com/neeleshnn26/Nuclear-E-commerce",
+        live: "https://nuclear-e-commerce.vercel.app/"
     },
     {
         w_no: 5,
-        w_name: "Portfolio Website",
+        w_name: "youtube",
         w_img: project5_img,
         description: "A personal portfolio website showcasing my work and skills.",
         skills: ["HTML", "CSS", "JavaScript", "React"],
-        github: "https://github.com/your-github/portfolio",
-        live: "https://portfolio-demo.com"
+        github: "https://github.com/neeleshnn26/namaste-youtube",
+        live: "https://namaste-youtube-indol.vercel.app/"
     },
     {
         w_no: 6,
@@ -91,8 +91,8 @@ const mywork_data = [
         w_img: project6_img,
         description: "A personal portfolio website showcasing my work and skills.",
         skills: ["HTML", "CSS", "JavaScript", "React"],
-        github: "https://github.com/your-github/portfolio",
-        live: "https://portfolio-demo.com"
+        github: "https://github.com/neeleshnn26/Weather-app",
+        live: "https://weather-app-one-iota-36.vercel.app/"
     }
 ];
 
