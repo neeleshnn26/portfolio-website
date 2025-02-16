@@ -18,7 +18,7 @@ const mywork_data = [
         ],
         skills: ["Javascript","React", "Redux", "Tailwind", "TMDB API", "Firebase", "Gemini API"],
         github: "https://github.com/neeleshnn26/Netflix-GT",
-        live: "https://project-c9g1gsuqi-neeleshs-projects-b120a240.vercel.app/"
+        live: "https://project-git-main-neeleshs-projects-b120a240.vercel.app/"
     },
     {
         w_no: 2,
@@ -66,11 +66,12 @@ const mywork_data = [
         w_name: "youtube",
         w_img: project5_img,
         description:  [
-            "Developed a Netflix clone using React, Redux, Tailwind CSS, and TMDB API.",
-            "Implemented user authentication using Firebase.",
-            "Integrated a recommendation system using OpenAI API."
+            "Developed a youtube platform using React, Redux, Tailwind CSS.",
+            "Implemented nested comments for structured discussions",
+            "Used Higher-Order Components (HOC) for code reusability.",
+            "Integrated debouncing to optimize search performance"
         ],
-        skills: ["HTML", "CSS", "JavaScript", "React"],
+        skills: ["JavaScript", "React", "Redux", "Tailwind CSS","HTML", "CSS"],
         github: "https://github.com/neeleshnn26/namaste-youtube",
         live: "https://namaste-youtube-indol.vercel.app/"
     },
@@ -79,11 +80,11 @@ const mywork_data = [
         w_name: "weather app",
         w_img: project6_img,
         description:  [
-            "Developed a Netflix clone using React, Redux, Tailwind CSS, and TMDB API.",
-            "Implemented user authentication using Firebase.",
-            "Integrated a recommendation system using OpenAI API."
+            "My first ever project using React.js",
+            "Displays real-time weather data with a clean UI",
+            "Integrated API calls for accurate forecasts",
         ],
-        skills: ["HTML", "CSS", "JavaScript", "React"],
+        skills: ["JavaScript", "React", "HTML", "CSS"],
         github: "https://github.com/neeleshnn26/Weather-app",
         live: "https://weather-app-one-iota-36.vercel.app/"
     }
