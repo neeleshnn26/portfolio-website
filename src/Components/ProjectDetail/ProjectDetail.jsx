@@ -14,16 +14,24 @@ const ProjectDetail = () => {
   return (
     <div className="project-detail">
       <h1>{project.w_name}</h1>
+      <p><strong>Skills Used : </strong> {project.skills.join(", ")}</p>
       <img src={project.w_img} alt={project.w_name} className="project-img" />
-      <p><strong>Description:</strong>{project.description}</p>
-      <p><strong>Skills Used:</strong> {project.skills.join(", ")}</p>
+      <button className="back-button" onClick={() => navigate('/')}>
+        ⬅ Back 
+      </button>
+      {/* <p><strong>Description:</strong>{project.description}</p> */}
+      <div className="description">
+        <strong>Description</strong>
+        <ul>
+          {project.description.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
+      </div>
       <div className="links">
         <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href={project.live} target="_blank" rel="noopener noreferrer">Live Project</a>
       </div>
-      <button className="back-button" onClick={() => navigate('/')}>
-        ⬅ Back 
-      </button>
     </div>
   );
 };
