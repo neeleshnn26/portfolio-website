@@ -3,7 +3,7 @@ import project2_img from '../assets/portfolio.png'
 import project3_img from '../assets/edusity.png'
 import project4_img from '../assets/E-commerce.png'
 import project5_img from '../assets/youtube.png'
-import project6_img from '../assets/weather-app.png'
+import project6_img from '../assets/gemini.png'
 
 const mywork_data = [
     {
@@ -62,7 +62,22 @@ const mywork_data = [
         live: "https://portfolio-website-pi-navy-53.vercel.app/"
     },
     {
+       
         w_no: 5,
+        w_name: "Gemini-clone",
+        w_img: project6_img,
+        description:  [
+            "Developed a Gemini Clone using JavaScript, React, HTML, and CSS.",
+            "Integrated Google Gemini API for AI-generated responses.",
+            "Implemented a chat interface with real-time interactions.",
+            "Designed a responsive UI for seamless user experience."
+        ],
+        skills: ["JavaScript", "React", "HTML", "CSS","Gemini API"],
+        github: "https://github.com/neeleshnn26/gemini-clone",
+        live: "https://gemini-clone-eoaxowfwf-neeleshs-projects-b120a240.vercel.app/"
+    },
+    {
+        w_no: 6,
         w_name: "youtube",
         w_img: project5_img,
         description:  [
@@ -73,20 +88,7 @@ const mywork_data = [
         ],
         skills: ["JavaScript", "React", "Redux", "Tailwind CSS","HTML", "CSS"],
         github: "https://github.com/neeleshnn26/namaste-youtube",
-        live: "https://namaste-youtube-indol.vercel.app/"
-    },
-    {
-        w_no: 6,
-        w_name: "weather app",
-        w_img: project6_img,
-        description:  [
-            "My first ever project using React.js",
-            "Displays real-time weather data with a clean UI",
-            "Integrated API calls for accurate forecasts",
-        ],
-        skills: ["JavaScript", "React", "HTML", "CSS"],
-        github: "https://github.com/neeleshnn26/Weather-app",
-        live: "https://weather-app-one-iota-36.vercel.app/"
+        live: "https://namaste-youtube-indol.vercel.app/",
     }
 ];
 
