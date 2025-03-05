@@ -17,8 +17,8 @@ const mywork_data = [
             "Developed a dynamic movie recommendation system using the Gemini API for personalized, genre-specific suggestions."
         ],
         skills: ["Javascript","React", "Redux", "Tailwind", "TMDB API", "Firebase", "Gemini API"],
-        github: "https://github.com/neeleshnn26/Netflix-GT",
-        live: "https://project-git-main-neeleshs-projects-b120a240.vercel.app/"
+        github: "https://github.com/neeleshnn26/Netflix-Gpt",
+        live: "https://netflix-gpt-git-main-neeleshs-projects-b120a240.vercel.app/"
     },
     {
         w_no: 2,

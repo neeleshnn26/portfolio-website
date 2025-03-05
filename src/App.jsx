@@ -30,6 +30,8 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import ProjectDetail from './Components/ProjectDetail/ProjectDetail'; // Project Detail Page
 import ScrollToTop from './Components/ScrollTop';
+import MyWork2 from './Components/MyWork2/MyWork2';
+import ProjectDetail2 from './Components/ProjectDetail2/ProjectDetail2';
 
 const App = () => {
   return (
@@ -44,12 +46,14 @@ const App = () => {
             <Hero />
             <About />
             <MyWork />
+            <MyWork2/>
             <Contact />
           </>
         } />
         
         {/* Project Detail Page (Sirf tab dikhe jab koi project click kare) */}
         <Route path="/project/:id" element={<ProjectDetail />} />
+        <Route path="/project1/:id" element={<ProjectDetail2 />} />
       </Routes>
       <Footer />
     </Router>
